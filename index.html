@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+    <title>Space Hosting</title>
+</head>
+
+<body>
+    <header>
+        
+        <nav>
+            <section class="contenedor nav">
+
+                <div class="logo">
+                    <img src="Imagen/2.png" alt="">
+                </div>
+                
+                <div class="enlaces-header">
+                    <div class="tema-oscuro">
+                        <label class = "tema-switch" for="checkbox">
+                            <input type="checkbox"  id="checkbox">
+                            <div class="slider round"></div>
+                        </label>
+                        <small>Cambiar tema</small>
+                    </div>
+                    <a href="#">Inicio</a>
+                    <a href="#">Comprar</a>
+                    <a href="ingresar.html">Cuenta</a>
+                     
+                </div>
+                <div class="hamburguer">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </section>
+        </nav>
+        <div class="contenedor">
+            <section class="contenido-header">
+                <section class="textos-header">
+                    <h1>40% de descuento en cualquier compra.</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab, quos.</p>
+                    <a href="#">Comprar ahora</a>
+                </section>
+                <img src="Imagen/undraw_dev_productivity_umsq.svg" alt="">
+            </section>
+            
+        </div>
+        
+    </header>
+    
+    <section class="about-us">
+        <div class="contenedor1">
+            <h2 class="titulo">Ventajas MTA</h2>
+            <div class="contenedor-articulo">
+                <div class="articulo">
+                    <i class="fas fa-check-circle"></i>
+                    <h3>Ddos premium</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, aspernatur earum temporibus
+                        eaque fuga libero?</p>
+                </div>
+                <div class="articulo">
+                    <i class="fas fa-pen-fancy"></i>
+                    <h3>Acelerador y compactador</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, aspernatur earum temporibus
+                        eaque fuga libero?</p>
+                </div>
+                <div class="articulo">
+                    <i class="fas fa-pen-fancy"></i>
+                    <h3>Base de datos</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, aspernatur earum temporibus
+                        eaque fuga libero?</p>
+                </div>
+            </div>
+        </div>
+        <div class= "wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-4.80,125.82 C152.08,136.67 408.85,75.48 500.84,120.88 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: rgb(255, 255, 255);"></path></svg></div>
+    </section>
+    
+    <section class="questions contenedor">
+        <section class="textos-questions">
+            <h1>Tu creatividad supera los limites.</h1>
+            <p>Crea lo que puedas imaginar. Todo es posible crearlo con esfuerzo y dedicación. En Space te ofrecemos los mejores servicios para que puedas crearlo.</p>
+        </section>
+        <img src="Imagen/undraw_Around_the_world_re_n353.svg" alt="">
+    </section>
+
+    <section class="contenedor1 services">
+        <img src="Imagen/undraw_active_options_8je6.svg" alt="">
+        <div class="box-skills">
+            <h4><i class="fas fa-check-circle"></i> Soporte lunar.</h4>
+            <h4><i class="fas fa-check-circle"></i> Crea tickets fácilmente.</h4>
+            <h4><i class="fas fa-check-circle"></i> Personal capacitado.</h4>
+        </div>
+    </section>
+
+    <footer>
+        <div class="partFooter">
+            <img src="Imagen/2.png" alt="">
+            <h4>&copy; Space Hosting 2020.</h4>
+        </div>
+        <div class="partFooter">
+            <h4>Servicios</h4>
+            <a href="#">Multi Theft Auto</a>
+            <a href="#">San Andreas Multiplayer</a>
+            <a href="#">Team Speak 3</a>
+        </div>
+        <div class="partFooter">
+            <h4>Acerca de</h4>
+            <a href="#">Terminos y Condiciones</a>
+            <a href="#">Politica de privacidad</a>
+            <a href="#">Politica de Reembolso</a>
+        </div>
+        <div class="partFooter">
+            <h4>Siguenos</h4>
+            <div class="social-media">
+               <a href = "discord.com" > <i class="fab fa-discord"></i> </a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const colorSwitch = document.querySelector('.tema-switch input[type="CHECKBOX"]');
+
+        function switchColor(e){
+            if (e.target.checked){
+                document.documentElement.setAttribute('data-theme', 'dark');
+            } else {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        }
+
+        colorSwitch.addEventListener('change', switchColor, false);
+    </script>
+    <script src="https://kit.fontawesome.com/e0ef78d6e4.js" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
