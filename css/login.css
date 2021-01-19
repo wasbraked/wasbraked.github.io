@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+body{
+       background: rgb(30, 30, 31);
+       padding: 20px;
+}
+
+.contenedor-all{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.logo{
+    width: 90px;
+    margin: auto;
+    display: block;
+}
+
+.title{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 600;
+    color: rgb(137, 139, 141);
+}
+
+label{
+    display: block;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+input[type="text"], input[type="password"]{
+    width: 90%;
+    height: 30px;
+    background: rgba(0, 0, 0, 0);
+    border: 0px;
+    outline: 0px;
+    border-bottom: 3px solid rgba(53, 53, 53, 0.12);
+    color: rgb(104, 98, 98);
+    font-size: 16px;
+    font-weight: 200;
+}
+
+input[type="submit"]{
+    width: 70%;
+    margin:auto;
+    height: 50px;
+    margin-top: 60px;
+    color: white;
+    border: 0;
+    background: rgb(5, 100, 224);
+    font-weight: 300;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+input[type="submit"]:hover{
+    background: rgb(7, 65, 141);
+}
+
+.text-footer{
+    display: block;
+    margin-top: 100px;
+    text-align: center;
+    color: rgb(77, 77, 77);
+    font-weight: 500;
+}
+
+.text-footer a{
+    color: rgb(5, 100, 224);
+}
+
+.text-footer a:hover{
+    color: rgb(7, 65, 141);
+}
+
+.contenedor-form{
+    width: 70%;
+    height: 600px;
+    margin: auto;
+    overflow: hidden;
+    padding: 40px ;
+    text-align: center;
+    background: rgb(255, 255, 255);
+    font-weight: 500;
+    border-radius: 20px;
+}
+
+label{
+    color: rgb(104, 98, 98);
+}
+
+/* errer*/ 
+
+.msg-error{
+    color: red;
+    display: block;
+    margin-top: 10px;
+}
+
+/*
