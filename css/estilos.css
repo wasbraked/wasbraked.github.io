@@ -5,9 +5,9 @@
 }
 
 :root{
-    --primer-color: #ffffff;
+    --primer-color:      #0e4bd0 ;
     --segundo-color: #ececec;
-    --color-nav: #ffffff;
+    --color-nav: #222325;
 }
 
 [data-theme='dark']{
@@ -21,7 +21,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: rgb(87, 87, 87);
+    color: #cccdce;
     font-weight: 300;
 }
 
@@ -51,6 +51,8 @@ header {
     width: 100%;
     height: 600px;
     background: var(--primer-color);
+    /*background-image: url('fondo.jpg');*/
+    background-repeat: no-repeat
     background-size: cover;
     background-attachment: fixed;
     position: relative;
@@ -197,7 +199,7 @@ input:checked + slider:before{
 .contenido-header {
     font-weight: 100;
     margin-top: 14px;
-    color: royalblue;
+    color: #cccdce;
 }
 
 .contenido-header a {
